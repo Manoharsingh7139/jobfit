@@ -1,0 +1,101 @@
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 4px;
+  font-family: 'Space Grotesk', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border: 0.5px solid #d4d4d4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 4px 0px;
+}
+
+button[type="submit"] {
+  display: inline-block;
+    padding: 8px 32px;
+    background-color: #4533E8;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  	cursor: pointer;
+  	margin: 20px 0px;
+}
+
+button[type="submit"]:hover {
+  background-color: ##2a1a9b;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  max-width: 720px;
+  max-height: 400px;
+  align-content: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #2a2f30;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+button {
+  background-color: #4533E8;
+  color: #ffffff;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
+
+.popup {
+  background-color: #f4f4f9;
+  color: #2a2f30;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.popup button {
+  background-color: #4533E8;
+  color: #ffffff;
+}

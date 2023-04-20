@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Join Our Community</title>
+    <link rel="stylesheet" href="jobfit_c1_apply.css">
+  </head>
+  <body>
+    <div class="container">
+      <form id="joinForm">
+        <h2>Join Our Community</h2>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" maxlength="100" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mobile">Mobile Number:</label>
+          <input type="tel" id="mobile" name="mobile" required>
+        </div>
+        <div class="form-group">
+          <label for="degree">Graduation Degree:</label>
+          <input type="text" id="degree" name="degree" required>
+        </div>
+        <div class="form-group">
+          <label for="year">Graduation Year:</label>
+          <input type="number" id="year" name="year" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <p id="modalText"></p>
+        <button id="joinBtn">Join Our Community</button>
+      </div>
+    </div>
+    <script src="jobfit.js"></script>
+  </body>
+</html>

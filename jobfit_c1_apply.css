@@ -1,12 +1,10 @@
 .container {
-  max-width: 500px;
-  margin: auto;
-  padding: 20px;
-  border-radius: 4px;
-  font-family: 'Space Grotesk', sans-serif;
   max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
+  border-radius: 4px;
+  font-family: 'Space Grotesk', sans-serif;
+  max-height: auto;
 }
 
 h2 {
@@ -34,19 +32,19 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="number"]
 
 button[type="submit"] {
   display: inline-block;
-    padding: 8px 32px;
-    background-color: #4533E8;
-    color: #fff;
-    border-radius: 4px;
-    font-size: 16px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  	cursor: pointer;
-  	margin: 20px 0px;
+  padding: 8px 32px;
+  background-color: #4533E8;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: 20px 0px;
 }
 
 button[type="submit"]:hover {
-  background-color: ##2a1a9b;
+  background-color: #2a1a9b;
 }
 
 .modal {
@@ -58,16 +56,19 @@ button[type="submit"]:hover {
   width: 100%;
   height: 100%;
   background-color: #ffffff;
-  max-width: 720px;
-  max-height: 400px;
+  max-width: 100%;
+  max-height: 100%;
   align-content: center;
 }
 
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto;
+  margin: auto;
   padding: 20px;
-  border: 1px solid #888
+  border: 1px solid #888;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
 }
 
 body {
@@ -76,16 +77,13 @@ body {
   font-family: 'Space Grotesk', sans-serif;
 }
 
-button {
-  background-color: #4533E8;
-  color: #ffffff;
-}
-
-
 @media only screen and (max-width: 768px) {
   .container {
-    max-width: 100%;
     padding: 0 10px;
+  }
+  input[type="text"], input[type="email"], input[type="tel"], input[type="number"], button[type="submit"] {
+    font-size: 14px;
+    padding: 10px;
   }
 }
 

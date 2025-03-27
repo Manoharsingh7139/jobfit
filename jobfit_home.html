@@ -197,5 +197,25 @@
           <li>Preparing for job interviews and offers</li>
         </ul>
       </div>
+
+        <script>
+(function(w, d) {
+  const id = "chatbot_03qmeuu";
+  if (d.getElementById(id)) return;
+  
+  const host = "https://v0-chatbot-app-requirements.vercel.app";
+  const scriptEl = d.createElement("script");
+  scriptEl.id = id;
+  scriptEl.async = true;
+  scriptEl.src = host + "/api/widget.js";
+  scriptEl.dataset.color = "#3b82f6";
+  scriptEl.dataset.position = "right";
+  scriptEl.dataset.host = host;
+  scriptEl.dataset.title = "Support Chat";
+  scriptEl.dataset.subtitle = "How can we help you today?";
+  
+  d.body.appendChild(scriptEl);
+})(window, document);
+</script>
 </body>
 </html>
